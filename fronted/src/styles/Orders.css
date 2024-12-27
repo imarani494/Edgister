@@ -1,0 +1,107 @@
+/* Orders.css */
+.orders-container {
+    padding: 40px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .orders-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .order-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .order-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  .order-text {
+    font-size: 18px;
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+  
+  .order-status {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .order-status.delivered {
+    color: #27ae60;
+  }
+  
+  .order-status.pending {
+    color: #f39c12;
+  }
+  
+  .order-status.cancelled {
+    color: #e74c3c;
+  }
+  
+  .order-form {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .order-form label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #34495e;
+    display: block;
+  }
+  
+  .order-form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .order-form input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .order-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .order-form button:hover {
+    background-color: #2980b9;
+  }
+  

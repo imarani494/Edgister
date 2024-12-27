@@ -1,0 +1,84 @@
+/* Login.css */
+
+/* Container for the login form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  @media (max-width: 480px) {
+    .login-form {
+      max-width: 90%;
+    }
+  }
+  
+  /* Title of the form */
+  .form-title {
+    text-align: center;
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input-field {
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 480px) {
+    .input-field {
+      padding: 14px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Error text styling */
+  .error-text {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    padding: 14px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 480px) {
+    .submit-button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  
